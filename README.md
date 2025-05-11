@@ -27,12 +27,11 @@ This project is great for learning:
 ## 🖼️ Screenshots
 
 ### 🔹 Home Page
-> _Add an image showing your homepage UI here_
-![Home Page](images/homepage.png)
+![Resume Builder Screenshot](https://raw.githubusercontent.com/RajdeepKushwaha5/github-resume-builder/main/github-resume-builder/screen1.png)
+
 
 ### 🔹 Resume Preview
-> _Add an image showing the generated resume preview here_
-![Resume Preview](images/resume-preview.png)
+![Resume Preview](github-resume-builder/screen2.png)
 
 ---
 
