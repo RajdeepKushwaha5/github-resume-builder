@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= username %>'s Resume</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1><%= username %>'s GitHub Resume</h1>
+  <h2>Projects:</h2>
+  <ul>
+    <% projects.forEach(project => { %>
+      <li>
+        <strong><a href="<%= project.url %>" target="_blank"><%= project.name %></a></strong><br />
+        <em><%= project.language || 'N/A' %></em><br />
+        <p><%= project.description || 'No description provided.' %></p>
+      </li>
+    <% }) %>
+  </ul>
+</body>
+</html>
